@@ -18,7 +18,7 @@ int main (){
         sleep(5);
         system("clear");
         printf("Nivel %d:\n", i);
-        printf("Digite a sequencia de numeros que apareceu: \n");
+        printf("Digite a sequencia de numeros que apareceu, com espaços entre os numeros: \n");
         for (p = 0; p < i; p++){
             scanf("%d", &resposta[p]);
             if (resposta[p] != gabarito[p]){
